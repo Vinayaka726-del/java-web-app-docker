@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: javawebapp-ENVIRONMENT-BUILD_NUMBER
 spec:
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
